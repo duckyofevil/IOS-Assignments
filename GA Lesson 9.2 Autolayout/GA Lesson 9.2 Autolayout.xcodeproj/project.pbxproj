@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489782E11CB8AE2E0003DB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489782E01CB8AE2E0003DB9E /* AppDelegate.swift */; };
+		489782E31CB8AE2E0003DB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489782E21CB8AE2E0003DB9E /* ViewController.swift */; };
+		489782E61CB8AE2E0003DB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489782E41CB8AE2E0003DB9E /* Main.storyboard */; };
+		489782E81CB8AE2E0003DB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489782E71CB8AE2E0003DB9E /* Assets.xcassets */; };
+		489782EB1CB8AE2E0003DB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489782E91CB8AE2E0003DB9E /* LaunchScreen.storyboard */; };
+		489782F61CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489782F51CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutTests.swift */; };
+		489783011CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489783001CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		489782F21CB8AE2F0003DB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489782D51CB8AE2E0003DB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489782DC1CB8AE2E0003DB9E;
+			remoteInfo = "GA Lesson 9.2 Autolayout";
+		};
+		489782FD1CB8AE2F0003DB9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489782D51CB8AE2E0003DB9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489782DC1CB8AE2E0003DB9E;
+			remoteInfo = "GA Lesson 9.2 Autolayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		489782DD1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GA Lesson 9.2 Autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489782E01CB8AE2E0003DB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		489782E21CB8AE2E0003DB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		489782E51CB8AE2E0003DB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		489782E71CB8AE2E0003DB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		489782EA1CB8AE2E0003DB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		489782EC1CB8AE2E0003DB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489782F11CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA Lesson 9.2 AutolayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489782F51CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Lesson_9_2_AutolayoutTests.swift; sourceTree = "<group>"; };
+		489782F71CB8AE2F0003DB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489782FC1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA Lesson 9.2 AutolayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489783001CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Lesson_9_2_AutolayoutUITests.swift; sourceTree = "<group>"; };
+		489783021CB8AE2F0003DB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489782DA1CB8AE2E0003DB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489782EE1CB8AE2F0003DB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489782F91CB8AE2F0003DB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489782D41CB8AE2E0003DB9E = {
+			isa = PBXGroup;
+			children = (
+				489782DF1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout */,
+				489782F41CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests */,
+				489782FF1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests */,
+				489782DE1CB8AE2E0003DB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		489782DE1CB8AE2E0003DB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489782DD1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout.app */,
+				489782F11CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests.xctest */,
+				489782FC1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489782DF1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				489782E01CB8AE2E0003DB9E /* AppDelegate.swift */,
+				489782E21CB8AE2E0003DB9E /* ViewController.swift */,
+				489782E41CB8AE2E0003DB9E /* Main.storyboard */,
+				489782E71CB8AE2E0003DB9E /* Assets.xcassets */,
+				489782E91CB8AE2E0003DB9E /* LaunchScreen.storyboard */,
+				489782EC1CB8AE2E0003DB9E /* Info.plist */,
+			);
+			path = "GA Lesson 9.2 Autolayout";
+			sourceTree = "<group>";
+		};
+		489782F41CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				489782F51CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutTests.swift */,
+				489782F71CB8AE2F0003DB9E /* Info.plist */,
+			);
+			path = "GA Lesson 9.2 AutolayoutTests";
+			sourceTree = "<group>";
+		};
+		489782FF1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				489783001CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutUITests.swift */,
+				489783021CB8AE2F0003DB9E /* Info.plist */,
+			);
+			path = "GA Lesson 9.2 AutolayoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489782DC1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489783051CB8AE2F0003DB9E /* Build configuration list for PBXNativeTarget "GA Lesson 9.2 Autolayout" */;
+			buildPhases = (
+				489782D91CB8AE2E0003DB9E /* Sources */,
+				489782DA1CB8AE2E0003DB9E /* Frameworks */,
+				489782DB1CB8AE2E0003DB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GA Lesson 9.2 Autolayout";
+			productName = "GA Lesson 9.2 Autolayout";
+			productReference = 489782DD1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		489782F01CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489783081CB8AE2F0003DB9E /* Build configuration list for PBXNativeTarget "GA Lesson 9.2 AutolayoutTests" */;
+			buildPhases = (
+				489782ED1CB8AE2F0003DB9E /* Sources */,
+				489782EE1CB8AE2F0003DB9E /* Frameworks */,
+				489782EF1CB8AE2F0003DB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489782F31CB8AE2F0003DB9E /* PBXTargetDependency */,
+			);
+			name = "GA Lesson 9.2 AutolayoutTests";
+			productName = "GA Lesson 9.2 AutolayoutTests";
+			productReference = 489782F11CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		489782FB1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4897830B1CB8AE2F0003DB9E /* Build configuration list for PBXNativeTarget "GA Lesson 9.2 AutolayoutUITests" */;
+			buildPhases = (
+				489782F81CB8AE2F0003DB9E /* Sources */,
+				489782F91CB8AE2F0003DB9E /* Frameworks */,
+				489782FA1CB8AE2F0003DB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489782FE1CB8AE2F0003DB9E /* PBXTargetDependency */,
+			);
+			name = "GA Lesson 9.2 AutolayoutUITests";
+			productName = "GA Lesson 9.2 AutolayoutUITests";
+			productReference = 489782FC1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489782D51CB8AE2E0003DB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emma Ran Li";
+				TargetAttributes = {
+					489782DC1CB8AE2E0003DB9E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					489782F01CB8AE2F0003DB9E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 489782DC1CB8AE2E0003DB9E;
+					};
+					489782FB1CB8AE2F0003DB9E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 489782DC1CB8AE2E0003DB9E;
+					};
+				};
+			};
+			buildConfigurationList = 489782D81CB8AE2E0003DB9E /* Build configuration list for PBXProject "GA Lesson 9.2 Autolayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489782D41CB8AE2E0003DB9E;
+			productRefGroup = 489782DE1CB8AE2E0003DB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489782DC1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout */,
+				489782F01CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutTests */,
+				489782FB1CB8AE2F0003DB9E /* GA Lesson 9.2 AutolayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489782DB1CB8AE2E0003DB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489782EB1CB8AE2E0003DB9E /* LaunchScreen.storyboard in Resources */,
+				489782E81CB8AE2E0003DB9E /* Assets.xcassets in Resources */,
+				489782E61CB8AE2E0003DB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489782EF1CB8AE2F0003DB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489782FA1CB8AE2F0003DB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489782D91CB8AE2E0003DB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489782E31CB8AE2E0003DB9E /* ViewController.swift in Sources */,
+				489782E11CB8AE2E0003DB9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489782ED1CB8AE2F0003DB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489782F61CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489782F81CB8AE2F0003DB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489783011CB8AE2F0003DB9E /* GA_Lesson_9_2_AutolayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		489782F31CB8AE2F0003DB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489782DC1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout */;
+			targetProxy = 489782F21CB8AE2F0003DB9E /* PBXContainerItemProxy */;
+		};
+		489782FE1CB8AE2F0003DB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489782DC1CB8AE2E0003DB9E /* GA Lesson 9.2 Autolayout */;
+			targetProxy = 489782FD1CB8AE2F0003DB9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		489782E41CB8AE2E0003DB9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489782E51CB8AE2E0003DB9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		489782E91CB8AE2E0003DB9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489782EA1CB8AE2E0003DB9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489783031CB8AE2F0003DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		489783041CB8AE2F0003DB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489783061CB8AE2F0003DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA Lesson 9.2 Autolayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-9-2-Autolayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		489783071CB8AE2F0003DB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA Lesson 9.2 Autolayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-9-2-Autolayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		489783091CB8AE2F0003DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA Lesson 9.2 AutolayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-9-2-AutolayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA Lesson 9.2 Autolayout.app/GA Lesson 9.2 Autolayout";
+			};
+			name = Debug;
+		};
+		4897830A1CB8AE2F0003DB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA Lesson 9.2 AutolayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-9-2-AutolayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA Lesson 9.2 Autolayout.app/GA Lesson 9.2 Autolayout";
+			};
+			name = Release;
+		};
+		4897830C1CB8AE2F0003DB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA Lesson 9.2 AutolayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-9-2-AutolayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA Lesson 9.2 Autolayout";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4897830D1CB8AE2F0003DB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA Lesson 9.2 AutolayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-9-2-AutolayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA Lesson 9.2 Autolayout";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489782D81CB8AE2E0003DB9E /* Build configuration list for PBXProject "GA Lesson 9.2 Autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489783031CB8AE2F0003DB9E /* Debug */,
+				489783041CB8AE2F0003DB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489783051CB8AE2F0003DB9E /* Build configuration list for PBXNativeTarget "GA Lesson 9.2 Autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489783061CB8AE2F0003DB9E /* Debug */,
+				489783071CB8AE2F0003DB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		489783081CB8AE2F0003DB9E /* Build configuration list for PBXNativeTarget "GA Lesson 9.2 AutolayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489783091CB8AE2F0003DB9E /* Debug */,
+				4897830A1CB8AE2F0003DB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4897830B1CB8AE2F0003DB9E /* Build configuration list for PBXNativeTarget "GA Lesson 9.2 AutolayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4897830C1CB8AE2F0003DB9E /* Debug */,
+				4897830D1CB8AE2F0003DB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489782D51CB8AE2E0003DB9E /* Project object */;
+}
