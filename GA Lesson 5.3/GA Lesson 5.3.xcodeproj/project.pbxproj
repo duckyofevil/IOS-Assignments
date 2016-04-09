@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4830CAC71CAC0644006323DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CAC61CAC0644006323DA /* AppDelegate.swift */; };
+		4830CAC91CAC0644006323DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CAC81CAC0644006323DA /* ViewController.swift */; };
+		4830CACC1CAC0644006323DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830CACA1CAC0644006323DA /* Main.storyboard */; };
+		4830CACE1CAC0644006323DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4830CACD1CAC0644006323DA /* Assets.xcassets */; };
+		4830CAD11CAC0644006323DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830CACF1CAC0644006323DA /* LaunchScreen.storyboard */; };
+		4830CADC1CAC0644006323DA /* GA_Lesson_5_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CADB1CAC0644006323DA /* GA_Lesson_5_3Tests.swift */; };
+		4830CAE71CAC0644006323DA /* GA_Lesson_5_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CAE61CAC0644006323DA /* GA_Lesson_5_3UITests.swift */; };
+		4830CAF51CAC0701006323DA /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CAF41CAC0701006323DA /* StudentsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4830CAD81CAC0644006323DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4830CABB1CAC0644006323DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4830CAC21CAC0644006323DA;
+			remoteInfo = "GA Lesson 5.3";
+		};
+		4830CAE31CAC0644006323DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4830CABB1CAC0644006323DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4830CAC21CAC0644006323DA;
+			remoteInfo = "GA Lesson 5.3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4830CAC31CAC0644006323DA /* GA Lesson 5.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GA Lesson 5.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830CAC61CAC0644006323DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4830CAC81CAC0644006323DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4830CACB1CAC0644006323DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4830CACD1CAC0644006323DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4830CAD01CAC0644006323DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4830CAD21CAC0644006323DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830CAD71CAC0644006323DA /* GA Lesson 5.3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA Lesson 5.3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830CADB1CAC0644006323DA /* GA_Lesson_5_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Lesson_5_3Tests.swift; sourceTree = "<group>"; };
+		4830CADD1CAC0644006323DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830CAE21CAC0644006323DA /* GA Lesson 5.3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA Lesson 5.3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830CAE61CAC0644006323DA /* GA_Lesson_5_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Lesson_5_3UITests.swift; sourceTree = "<group>"; };
+		4830CAE81CAC0644006323DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830CAF41CAC0701006323DA /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4830CAC01CAC0644006323DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CAD41CAC0644006323DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CADF1CAC0644006323DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4830CABA1CAC0644006323DA = {
+			isa = PBXGroup;
+			children = (
+				4830CAC51CAC0644006323DA /* GA Lesson 5.3 */,
+				4830CADA1CAC0644006323DA /* GA Lesson 5.3Tests */,
+				4830CAE51CAC0644006323DA /* GA Lesson 5.3UITests */,
+				4830CAC41CAC0644006323DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4830CAC41CAC0644006323DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4830CAC31CAC0644006323DA /* GA Lesson 5.3.app */,
+				4830CAD71CAC0644006323DA /* GA Lesson 5.3Tests.xctest */,
+				4830CAE21CAC0644006323DA /* GA Lesson 5.3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4830CAC51CAC0644006323DA /* GA Lesson 5.3 */ = {
+			isa = PBXGroup;
+			children = (
+				4830CAC61CAC0644006323DA /* AppDelegate.swift */,
+				4830CAC81CAC0644006323DA /* ViewController.swift */,
+				4830CACA1CAC0644006323DA /* Main.storyboard */,
+				4830CAF41CAC0701006323DA /* StudentsTableViewController.swift */,
+				4830CACD1CAC0644006323DA /* Assets.xcassets */,
+				4830CACF1CAC0644006323DA /* LaunchScreen.storyboard */,
+				4830CAD21CAC0644006323DA /* Info.plist */,
+			);
+			path = "GA Lesson 5.3";
+			sourceTree = "<group>";
+		};
+		4830CADA1CAC0644006323DA /* GA Lesson 5.3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4830CADB1CAC0644006323DA /* GA_Lesson_5_3Tests.swift */,
+				4830CADD1CAC0644006323DA /* Info.plist */,
+			);
+			path = "GA Lesson 5.3Tests";
+			sourceTree = "<group>";
+		};
+		4830CAE51CAC0644006323DA /* GA Lesson 5.3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4830CAE61CAC0644006323DA /* GA_Lesson_5_3UITests.swift */,
+				4830CAE81CAC0644006323DA /* Info.plist */,
+			);
+			path = "GA Lesson 5.3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4830CAC21CAC0644006323DA /* GA Lesson 5.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830CAEB1CAC0644006323DA /* Build configuration list for PBXNativeTarget "GA Lesson 5.3" */;
+			buildPhases = (
+				4830CABF1CAC0644006323DA /* Sources */,
+				4830CAC01CAC0644006323DA /* Frameworks */,
+				4830CAC11CAC0644006323DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GA Lesson 5.3";
+			productName = "GA Lesson 5.3";
+			productReference = 4830CAC31CAC0644006323DA /* GA Lesson 5.3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4830CAD61CAC0644006323DA /* GA Lesson 5.3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830CAEE1CAC0644006323DA /* Build configuration list for PBXNativeTarget "GA Lesson 5.3Tests" */;
+			buildPhases = (
+				4830CAD31CAC0644006323DA /* Sources */,
+				4830CAD41CAC0644006323DA /* Frameworks */,
+				4830CAD51CAC0644006323DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4830CAD91CAC0644006323DA /* PBXTargetDependency */,
+			);
+			name = "GA Lesson 5.3Tests";
+			productName = "GA Lesson 5.3Tests";
+			productReference = 4830CAD71CAC0644006323DA /* GA Lesson 5.3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4830CAE11CAC0644006323DA /* GA Lesson 5.3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830CAF11CAC0644006323DA /* Build configuration list for PBXNativeTarget "GA Lesson 5.3UITests" */;
+			buildPhases = (
+				4830CADE1CAC0644006323DA /* Sources */,
+				4830CADF1CAC0644006323DA /* Frameworks */,
+				4830CAE01CAC0644006323DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4830CAE41CAC0644006323DA /* PBXTargetDependency */,
+			);
+			name = "GA Lesson 5.3UITests";
+			productName = "GA Lesson 5.3UITests";
+			productReference = 4830CAE21CAC0644006323DA /* GA Lesson 5.3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4830CABB1CAC0644006323DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emma Ran Li";
+				TargetAttributes = {
+					4830CAC21CAC0644006323DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4830CAD61CAC0644006323DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4830CAC21CAC0644006323DA;
+					};
+					4830CAE11CAC0644006323DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4830CAC21CAC0644006323DA;
+					};
+				};
+			};
+			buildConfigurationList = 4830CABE1CAC0644006323DA /* Build configuration list for PBXProject "GA Lesson 5.3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4830CABA1CAC0644006323DA;
+			productRefGroup = 4830CAC41CAC0644006323DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4830CAC21CAC0644006323DA /* GA Lesson 5.3 */,
+				4830CAD61CAC0644006323DA /* GA Lesson 5.3Tests */,
+				4830CAE11CAC0644006323DA /* GA Lesson 5.3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4830CAC11CAC0644006323DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CAD11CAC0644006323DA /* LaunchScreen.storyboard in Resources */,
+				4830CACE1CAC0644006323DA /* Assets.xcassets in Resources */,
+				4830CACC1CAC0644006323DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CAD51CAC0644006323DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CAE01CAC0644006323DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4830CABF1CAC0644006323DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CAF51CAC0701006323DA /* StudentsTableViewController.swift in Sources */,
+				4830CAC91CAC0644006323DA /* ViewController.swift in Sources */,
+				4830CAC71CAC0644006323DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CAD31CAC0644006323DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CADC1CAC0644006323DA /* GA_Lesson_5_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CADE1CAC0644006323DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CAE71CAC0644006323DA /* GA_Lesson_5_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4830CAD91CAC0644006323DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4830CAC21CAC0644006323DA /* GA Lesson 5.3 */;
+			targetProxy = 4830CAD81CAC0644006323DA /* PBXContainerItemProxy */;
+		};
+		4830CAE41CAC0644006323DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4830CAC21CAC0644006323DA /* GA Lesson 5.3 */;
+			targetProxy = 4830CAE31CAC0644006323DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4830CACA1CAC0644006323DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4830CACB1CAC0644006323DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4830CACF1CAC0644006323DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4830CAD01CAC0644006323DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4830CAE91CAC0644006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4830CAEA1CAC0644006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4830CAEC1CAC0644006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA Lesson 5.3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-5-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4830CAED1CAC0644006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA Lesson 5.3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-5-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4830CAEF1CAC0644006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA Lesson 5.3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-5-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA Lesson 5.3.app/GA Lesson 5.3";
+			};
+			name = Debug;
+		};
+		4830CAF01CAC0644006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA Lesson 5.3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-5-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA Lesson 5.3.app/GA Lesson 5.3";
+			};
+			name = Release;
+		};
+		4830CAF21CAC0644006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA Lesson 5.3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-5-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA Lesson 5.3";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4830CAF31CAC0644006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA Lesson 5.3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Lesson-5-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA Lesson 5.3";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4830CABE1CAC0644006323DA /* Build configuration list for PBXProject "GA Lesson 5.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CAE91CAC0644006323DA /* Debug */,
+				4830CAEA1CAC0644006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4830CAEB1CAC0644006323DA /* Build configuration list for PBXNativeTarget "GA Lesson 5.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CAEC1CAC0644006323DA /* Debug */,
+				4830CAED1CAC0644006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4830CAEE1CAC0644006323DA /* Build configuration list for PBXNativeTarget "GA Lesson 5.3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CAEF1CAC0644006323DA /* Debug */,
+				4830CAF01CAC0644006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4830CAF11CAC0644006323DA /* Build configuration list for PBXNativeTarget "GA Lesson 5.3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CAF21CAC0644006323DA /* Debug */,
+				4830CAF31CAC0644006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4830CABB1CAC0644006323DA /* Project object */;
+}

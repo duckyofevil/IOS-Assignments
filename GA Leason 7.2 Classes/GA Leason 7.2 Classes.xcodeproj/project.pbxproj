@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4830CB3D1CAF665B006323DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CB3C1CAF665B006323DA /* AppDelegate.swift */; };
+		4830CB3F1CAF665B006323DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CB3E1CAF665B006323DA /* ViewController.swift */; };
+		4830CB421CAF665B006323DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830CB401CAF665B006323DA /* Main.storyboard */; };
+		4830CB441CAF665B006323DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4830CB431CAF665B006323DA /* Assets.xcassets */; };
+		4830CB471CAF665B006323DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830CB451CAF665B006323DA /* LaunchScreen.storyboard */; };
+		4830CB521CAF665B006323DA /* GA_Leason_7_2_ClassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CB511CAF665B006323DA /* GA_Leason_7_2_ClassesTests.swift */; };
+		4830CB5D1CAF665B006323DA /* GA_Leason_7_2_ClassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CB5C1CAF665B006323DA /* GA_Leason_7_2_ClassesUITests.swift */; };
+		4830CB6B1CAF6707006323DA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CB6A1CAF6707006323DA /* Student.swift */; };
+		4830CB711CAF700D006323DA /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830CB701CAF700D006323DA /* StudentsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4830CB4E1CAF665B006323DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4830CB311CAF665B006323DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4830CB381CAF665B006323DA;
+			remoteInfo = "GA Leason 7.2 Classes";
+		};
+		4830CB591CAF665B006323DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4830CB311CAF665B006323DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4830CB381CAF665B006323DA;
+			remoteInfo = "GA Leason 7.2 Classes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4830CB391CAF665B006323DA /* GA Leason 7.2 Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GA Leason 7.2 Classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830CB3C1CAF665B006323DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4830CB3E1CAF665B006323DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4830CB411CAF665B006323DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4830CB431CAF665B006323DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4830CB461CAF665B006323DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4830CB481CAF665B006323DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830CB4D1CAF665B006323DA /* GA Leason 7.2 ClassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA Leason 7.2 ClassesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830CB511CAF665B006323DA /* GA_Leason_7_2_ClassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Leason_7_2_ClassesTests.swift; sourceTree = "<group>"; };
+		4830CB531CAF665B006323DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830CB581CAF665B006323DA /* GA Leason 7.2 ClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GA Leason 7.2 ClassesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4830CB5C1CAF665B006323DA /* GA_Leason_7_2_ClassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Leason_7_2_ClassesUITests.swift; sourceTree = "<group>"; };
+		4830CB5E1CAF665B006323DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830CB6A1CAF6707006323DA /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		4830CB701CAF700D006323DA /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4830CB361CAF665B006323DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CB4A1CAF665B006323DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CB551CAF665B006323DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4830CB301CAF665B006323DA = {
+			isa = PBXGroup;
+			children = (
+				4830CB3B1CAF665B006323DA /* GA Leason 7.2 Classes */,
+				4830CB501CAF665B006323DA /* GA Leason 7.2 ClassesTests */,
+				4830CB5B1CAF665B006323DA /* GA Leason 7.2 ClassesUITests */,
+				4830CB3A1CAF665B006323DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4830CB3A1CAF665B006323DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4830CB391CAF665B006323DA /* GA Leason 7.2 Classes.app */,
+				4830CB4D1CAF665B006323DA /* GA Leason 7.2 ClassesTests.xctest */,
+				4830CB581CAF665B006323DA /* GA Leason 7.2 ClassesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4830CB3B1CAF665B006323DA /* GA Leason 7.2 Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4830CB3C1CAF665B006323DA /* AppDelegate.swift */,
+				4830CB3E1CAF665B006323DA /* ViewController.swift */,
+				4830CB6A1CAF6707006323DA /* Student.swift */,
+				4830CB401CAF665B006323DA /* Main.storyboard */,
+				4830CB701CAF700D006323DA /* StudentsTableViewController.swift */,
+				4830CB431CAF665B006323DA /* Assets.xcassets */,
+				4830CB451CAF665B006323DA /* LaunchScreen.storyboard */,
+				4830CB481CAF665B006323DA /* Info.plist */,
+			);
+			path = "GA Leason 7.2 Classes";
+			sourceTree = "<group>";
+		};
+		4830CB501CAF665B006323DA /* GA Leason 7.2 ClassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4830CB511CAF665B006323DA /* GA_Leason_7_2_ClassesTests.swift */,
+				4830CB531CAF665B006323DA /* Info.plist */,
+			);
+			path = "GA Leason 7.2 ClassesTests";
+			sourceTree = "<group>";
+		};
+		4830CB5B1CAF665B006323DA /* GA Leason 7.2 ClassesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4830CB5C1CAF665B006323DA /* GA_Leason_7_2_ClassesUITests.swift */,
+				4830CB5E1CAF665B006323DA /* Info.plist */,
+			);
+			path = "GA Leason 7.2 ClassesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4830CB381CAF665B006323DA /* GA Leason 7.2 Classes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830CB611CAF665B006323DA /* Build configuration list for PBXNativeTarget "GA Leason 7.2 Classes" */;
+			buildPhases = (
+				4830CB351CAF665B006323DA /* Sources */,
+				4830CB361CAF665B006323DA /* Frameworks */,
+				4830CB371CAF665B006323DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GA Leason 7.2 Classes";
+			productName = "GA Leason 7.2 Classes";
+			productReference = 4830CB391CAF665B006323DA /* GA Leason 7.2 Classes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4830CB4C1CAF665B006323DA /* GA Leason 7.2 ClassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830CB641CAF665B006323DA /* Build configuration list for PBXNativeTarget "GA Leason 7.2 ClassesTests" */;
+			buildPhases = (
+				4830CB491CAF665B006323DA /* Sources */,
+				4830CB4A1CAF665B006323DA /* Frameworks */,
+				4830CB4B1CAF665B006323DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4830CB4F1CAF665B006323DA /* PBXTargetDependency */,
+			);
+			name = "GA Leason 7.2 ClassesTests";
+			productName = "GA Leason 7.2 ClassesTests";
+			productReference = 4830CB4D1CAF665B006323DA /* GA Leason 7.2 ClassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4830CB571CAF665B006323DA /* GA Leason 7.2 ClassesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4830CB671CAF665B006323DA /* Build configuration list for PBXNativeTarget "GA Leason 7.2 ClassesUITests" */;
+			buildPhases = (
+				4830CB541CAF665B006323DA /* Sources */,
+				4830CB551CAF665B006323DA /* Frameworks */,
+				4830CB561CAF665B006323DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4830CB5A1CAF665B006323DA /* PBXTargetDependency */,
+			);
+			name = "GA Leason 7.2 ClassesUITests";
+			productName = "GA Leason 7.2 ClassesUITests";
+			productReference = 4830CB581CAF665B006323DA /* GA Leason 7.2 ClassesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4830CB311CAF665B006323DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emma Ran Li";
+				TargetAttributes = {
+					4830CB381CAF665B006323DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4830CB4C1CAF665B006323DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4830CB381CAF665B006323DA;
+					};
+					4830CB571CAF665B006323DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4830CB381CAF665B006323DA;
+					};
+				};
+			};
+			buildConfigurationList = 4830CB341CAF665B006323DA /* Build configuration list for PBXProject "GA Leason 7.2 Classes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4830CB301CAF665B006323DA;
+			productRefGroup = 4830CB3A1CAF665B006323DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4830CB381CAF665B006323DA /* GA Leason 7.2 Classes */,
+				4830CB4C1CAF665B006323DA /* GA Leason 7.2 ClassesTests */,
+				4830CB571CAF665B006323DA /* GA Leason 7.2 ClassesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4830CB371CAF665B006323DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CB471CAF665B006323DA /* LaunchScreen.storyboard in Resources */,
+				4830CB441CAF665B006323DA /* Assets.xcassets in Resources */,
+				4830CB421CAF665B006323DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CB4B1CAF665B006323DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CB561CAF665B006323DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4830CB351CAF665B006323DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CB3F1CAF665B006323DA /* ViewController.swift in Sources */,
+				4830CB6B1CAF6707006323DA /* Student.swift in Sources */,
+				4830CB3D1CAF665B006323DA /* AppDelegate.swift in Sources */,
+				4830CB711CAF700D006323DA /* StudentsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CB491CAF665B006323DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CB521CAF665B006323DA /* GA_Leason_7_2_ClassesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4830CB541CAF665B006323DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4830CB5D1CAF665B006323DA /* GA_Leason_7_2_ClassesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4830CB4F1CAF665B006323DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4830CB381CAF665B006323DA /* GA Leason 7.2 Classes */;
+			targetProxy = 4830CB4E1CAF665B006323DA /* PBXContainerItemProxy */;
+		};
+		4830CB5A1CAF665B006323DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4830CB381CAF665B006323DA /* GA Leason 7.2 Classes */;
+			targetProxy = 4830CB591CAF665B006323DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4830CB401CAF665B006323DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4830CB411CAF665B006323DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4830CB451CAF665B006323DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4830CB461CAF665B006323DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4830CB5F1CAF665B006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4830CB601CAF665B006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4830CB621CAF665B006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA Leason 7.2 Classes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Leason-7-2-Classes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4830CB631CAF665B006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GA Leason 7.2 Classes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Leason-7-2-Classes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4830CB651CAF665B006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA Leason 7.2 ClassesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Leason-7-2-ClassesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA Leason 7.2 Classes.app/GA Leason 7.2 Classes";
+			};
+			name = Debug;
+		};
+		4830CB661CAF665B006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GA Leason 7.2 ClassesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Leason-7-2-ClassesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA Leason 7.2 Classes.app/GA Leason 7.2 Classes";
+			};
+			name = Release;
+		};
+		4830CB681CAF665B006323DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA Leason 7.2 ClassesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Leason-7-2-ClassesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA Leason 7.2 Classes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4830CB691CAF665B006323DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GA Leason 7.2 ClassesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GA.GA-Leason-7-2-ClassesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GA Leason 7.2 Classes";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4830CB341CAF665B006323DA /* Build configuration list for PBXProject "GA Leason 7.2 Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CB5F1CAF665B006323DA /* Debug */,
+				4830CB601CAF665B006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4830CB611CAF665B006323DA /* Build configuration list for PBXNativeTarget "GA Leason 7.2 Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CB621CAF665B006323DA /* Debug */,
+				4830CB631CAF665B006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4830CB641CAF665B006323DA /* Build configuration list for PBXNativeTarget "GA Leason 7.2 ClassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CB651CAF665B006323DA /* Debug */,
+				4830CB661CAF665B006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4830CB671CAF665B006323DA /* Build configuration list for PBXNativeTarget "GA Leason 7.2 ClassesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4830CB681CAF665B006323DA /* Debug */,
+				4830CB691CAF665B006323DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4830CB311CAF665B006323DA /* Project object */;
+}
